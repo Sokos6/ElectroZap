@@ -1,5 +1,7 @@
 {
   "name": "electrozap",
+  "productName": "ElectroZap",
+  "main": "electron/main.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^10.0.1"
   }
 }
